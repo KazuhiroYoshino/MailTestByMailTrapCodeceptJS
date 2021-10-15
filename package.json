@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "codeceptjs": "^3.1.2",
+    "codeceptjs-chai": "^2.3.2",
+    "inbox": "^1.1.59",
+    "nodemailer": "^6.6.3",
+    "sleep-async": "^1.0.5",
+    "webdriverio": "^7.12.5"
+  }
+}
