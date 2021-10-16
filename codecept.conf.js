@@ -5,12 +5,14 @@ const { setHeadlessWhen } = require('@codeceptjs/configure');
 setHeadlessWhen(process.env.HEADLESS);
 
 exports.config = {
-  tests: 'email_test/*_test.js',
+  tests: 'eMail_test/*_test.js',
   output: './output',
   helpers: {
-    WebDriver: {
-      url: 'http://localhost',
-      browser: 'chrome'
+    Playwright: {
+      url: 'https://hotel.testplanisphere.dev/ja/index.html?',
+      show: true,
+      browser: 'chromium',
+      video: 'enable'
     },
     "ChaiWrapper" : {
       "require": "codeceptjs-chai"
@@ -21,7 +23,7 @@ exports.config = {
   },
   bootstrap: null,
   mocha: {},
-  name: 'MailTrap',
+  name: 'MailTrap02',
   translation: 'ja-JP',
   plugins: {
     pauseOnFail: {},
