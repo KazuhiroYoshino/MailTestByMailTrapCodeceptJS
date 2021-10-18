@@ -3,9 +3,10 @@ emailTestTable.add(['会員登録完了のご連絡001','https://hotel.testplani
 emailTestTable.add(['会員登録完了のご連絡002','https://hotel.testplanisphere.dev/ja/index.html','ログイン | HOTEL PLANISPHERE - テスト自動化練習サイト','ご利用を心からお待ち申し上げております。', 'プレミアム会員', '山田一郎', 'ichiro@example.com', 'password']);
 emailTestTable.add(['会員登録完了のご連絡003','https://hotel.testplanisphere.dev/ja/login.html','ログイン | HOTEL PLANISPHERE - テスト自動化練習サイト','ご利用を心からお待ち申し上げております。', '一般会員', '山田一郎', 'ichiro@example.com', 'password']);
 emailTestTable.add(['会員登録完了のご連絡004','https://hotel.testplanisphere.dev/ja/login.html','ログイン | HOTEL PLANISPHERE - テスト自動化練習サイト','ご利用を心からお待ち申し上げます。', 'プレミアム会員', '山田一郎', 'ichiro@example.com', 'password']);
-emailTestTable.add(['会員登録完了のご連絡005','https://hotel.testplanisphere.dev/ja/login.html','ログイン | HOTEL PLANISPHERE - テスト自動化練習サイト','ご利用を心からお待ち申し上げております。', '一般会員', '松本さくら', 'sakura@example.com', 'pass1234']);
-emailTestTable.add(['会員登録完了のご連絡006','https://hotel.testplanisphere.dev/ja/login.html','ログイン | HOTEL PLANISPHERE - テスト自動化練習サイト','ご利用を心からお待ち申し上げております。', 'プレミアム会員', '林潤', 'jun@example.com', 'pa55w0rd!']);
-emailTestTable.add(['会員登録完了のご連絡007','https://hotel.testplanisphere.dev/ja/login.html','ログイン | HOTEL PLANISPHERE - テスト自動化練習サイト','ご利用を心からお待ち申し上げております。', '一般会員', '木村良樹', 'yoshiki@example.com', 'pass-pass']);
+emailTestTable.add(['会員登録完了のご連絡005','https://hotel.testplanisphere.dev/ja/login.html','ログイン | HOTEL PLANISPHERE - テスト自動化練習サイト','ご利用を心からお待ち申し上げております。', 'プレミアム会員', '山田一朗', 'ichiro@example.com', 'password']);
+emailTestTable.add(['会員登録完了のご連絡006','https://hotel.testplanisphere.dev/ja/login.html','ログイン | HOTEL PLANISPHERE - テスト自動化練習サイト','ご利用を心からお待ち申し上げております。', '一般会員', '松本さくら', 'sakura@example.com', 'pass1234']);
+emailTestTable.add(['会員登録完了のご連絡007','https://hotel.testplanisphere.dev/ja/login.html','ログイン | HOTEL PLANISPHERE - テスト自動化練習サイト','ご利用を心からお待ち申し上げております。', 'プレミアム会員', '林潤', 'jun@example.com', 'pa55w0rd!']);
+emailTestTable.add(['会員登録完了のご連絡008','https://hotel.testplanisphere.dev/ja/login.html','ログイン | HOTEL PLANISPHERE - テスト自動化練習サイト','ご利用を心からお待ち申し上げております。', '一般会員', '木村良樹', 'yoshiki@example.com', 'pass-pass']);
 
 Feature('emailTest');
 
